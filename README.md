@@ -5,4 +5,4 @@ This repository is for 2022SP CPS3320 python project.
 ## group member
 Dazhou Hou(Howard)
 
-jiayi Zhang(Libre)
+Jiayi Zhang(Libre)
