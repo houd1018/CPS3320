@@ -73,8 +73,10 @@ class Siamese(object):
    
     # Predict: take two image as input
     def detect_image(self, image_1, file_list):
+
+        file_name = file_list
         # -------------test image process-------------------
-        
+
         # resize image
         image_1 = self.letterbox_image(image_1,[self.input_shape[1],self.input_shape[0]])
         
@@ -97,8 +99,11 @@ class Siamese(object):
         plt.subplot(2, len(file_list), len(file_list) // 2)
         plt.imshow(np.array(image_1))
 
+        
+        s_max = 0
         # ---------------------support dataset------------------------
         for idx, image_2 in enumerate(file_list):
+        
             image_2 = Image.open(image_2)
             # resize image
             image_2 = self.letterbox_image(image_2,[self.input_shape[1],self.input_shape[0]])
@@ -122,9 +127,20 @@ class Siamese(object):
                 output = self.net([photo_1, photo_2])[0]
                 # add sigmoid here to ouput similarity between 0-1
                 output = torch.nn.Sigmoid()(output)
+                if output > s_max: 
+                    s_max = output
+                    temp = file_name[idx].split('\\')[-1]
 
             # --------------plotting---------------
             plt.subplot(2, len(file_list), len(file_list) + idx + 1)
             plt.imshow(np.array(image_2))
             plt.text(20, -12, 'Similarity:%.3f' % output, ha='center', va= 'bottom',fontsize=11)
+
+
+        plt.text(0.6, -50,'Answer: %s' % temp, size=30,
+         ha="center", va="center",
+         bbox=dict(boxstyle="round",
+                   ec=(1., 0.5, 0.5),
+                   fc=(1., 0.8, 0.8),
+                   ))
         plt.show()
