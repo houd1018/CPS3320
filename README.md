@@ -26,4 +26,4 @@ Command `python train.py` to train the model.
 Command ` python predict.py` to predict the test image
 
 - <u>Model file must be assigned</u>
-- <u>You have to specify test_image and support_dataset</u>
+- <u>You have to specify test_image and support_dataset path</u>
