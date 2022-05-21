@@ -15,7 +15,7 @@ The final project for 2022SP CPS3320
 
 ### Model Architecture
 
-![图片1](C:\Users\Howard\Desktop\CPS HW\CPS3320\CPS3320\resource\图片1.png)
+![图片1](https://github.com/houd1018/CPS3320/blob/master/resource/%E5%9B%BE%E7%89%871.png)
 
 ### [image_scraping](https://github.com/houd1018/CPS3320/tree/master/FewShot_Siamese/image_scraping)
 
