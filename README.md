@@ -38,6 +38,7 @@ python predict.py
 ```
 
 - <u>Model file must be assigned</u>
+<<<<<<< HEAD
 - <u>You have to specify test_image and support_dataset</u>
 
 ### [Hyperparameters](https://github.com/houd1018/CPS3320/tree/master/FewShot_Siamese/sourceCode_PyTorch/runs)
