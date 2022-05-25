@@ -54,6 +54,8 @@ Use selenium to scrape images from Google Image
 
 ### Result
 
+![output](https://github.com/houd1018/CPS3320/blob/master/resource/output.png)
+
 ### Training Record
 
 #### accuracy
