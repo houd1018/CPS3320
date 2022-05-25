@@ -1,9 +1,15 @@
+
+'''
+Coded by ourselves
+'''
+
 import os
 import numpy as np
 from PIL import Image
 
 from predict_siamese import Siamese
 
+# get support dataset's information in the list
 def get_allfile(path):  
     all_file = []
     for f in os.listdir(path): 
