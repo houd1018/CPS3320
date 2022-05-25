@@ -58,22 +58,28 @@ Use selenium to scrape images from Google Image
 
 #### accuracy
 
+![Total-accuracy](https://github.com/houd1018/CPS3320/blob/master/resource/Total-accuracy.jpg)
+
 #### loss
 
+![Total-loss](https://github.com/houd1018/CPS3320/blob/master/resource/Total-Loss.jpg)
+
 #### learning rate
+
+![Learning-rate](https://github.com/houd1018/CPS3320/blob/master/resource/Learning-rate.jpg)
 
 ### Reference website
 
 - Reconstruct Dataloader
-  - [DATASETS & DATALOADERS tutorial](l https://pytorch.org/tutorials/beginner/basics/data_tutorial.html)
-  - [DATASETS & DATALOADERS doc](l https://pytorch.org/docs/stable/data.html?highlight=dataloader#torch.utils.data.DataLoader)
-  - [Data Augmentation Compilation with Python and OpenCV](l https://towardsdatascience.com/data-augmentation-compilation-with-python-and-opencv-b76b1cd500e0)
+  - [DATASETS & DATALOADERS tutorial](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html)
+  - [DATASETS & DATALOADERS doc](https://pytorch.org/docs/stable/data.html?highlight=dataloader#torch.utils.data.DataLoader)
+  - [Data Augmentation Compilation with Python and OpenCV](https://towardsdatascience.com/data-augmentation-compilation-with-python-and-opencv-b76b1cd500e0)
 - VGG-16
-  - [VGG-16: A simple implementation using Pytorch](l https://medium.com/@tioluwaniaremu/vgg-16-a-simple-implementation-using-pytorch-7850be4d14a1)
+  - [VGG-16: A simple implementation using Pytorch](https://medium.com/@tioluwaniaremu/vgg-16-a-simple-implementation-using-pytorch-7850be4d14a1)
 - Image Scraping
-  - [How To Web Scrape & Download Images With Python](l https://www.youtube.com/watch?v=NBuED2PivbY)
+  - [How To Web Scrape & Download Images With Python](https://www.youtube.com/watch?v=NBuED2PivbY)
 - Papers related to Few-shot Learning & Siamese Neural Network
-  - [One-shot learning of object categories](l https://ieeexplore.ieee.org/abstract/document/1597116/)
-  - [Signature Verification using a "Siamese" Time Delay Neural Network](l https://proceedings.neurips.cc/paper/1993/hash/288cc0ff022877bd3df94bc9360b9c5d-Abstract.html)
-  - [Siamese Neural Networks for One-Shot Image Recognition](l http://www.cs.toronto.edu/~gkoch/files/msc-thesis.pdf)
+  - [One-shot learning of object categories](https://ieeexplore.ieee.org/abstract/document/1597116/)
+  - [Signature Verification using a "Siamese" Time Delay Neural Network](https://proceedings.neurips.cc/paper/1993/hash/288cc0ff022877bd3df94bc9360b9c5d-Abstract.html)
+  - [Siamese Neural Networks for One-Shot Image Recognition](http://www.cs.toronto.edu/~gkoch/files/msc-thesis.pdf)
 
