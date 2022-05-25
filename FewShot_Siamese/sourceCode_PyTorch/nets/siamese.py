@@ -1,3 +1,8 @@
+
+'''
+This file is coded by ourselves
+'''
+
 '''
 This class is used for training
 set up Siamese network

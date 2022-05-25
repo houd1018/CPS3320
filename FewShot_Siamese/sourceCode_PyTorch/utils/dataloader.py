@@ -1,3 +1,9 @@
+'''
+Some part is from Internet, such as mannual data augumentation which related to cv2
+Most of code is coded by ourselves
+'''
+
+
 import os
 import random
 from random import shuffle

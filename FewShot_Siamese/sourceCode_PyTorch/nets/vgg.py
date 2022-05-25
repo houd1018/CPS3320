@@ -1,4 +1,8 @@
 '''
+This part is imported form the Internet
+'''
+
+'''
 build VGG-16 
 You can put your pretrained weights in the model_data directory.
 '''

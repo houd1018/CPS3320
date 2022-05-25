@@ -1,3 +1,10 @@
+'''
+Entire Training process
+I have a template for other deep learning project, thus I modified some and transfered it to our project
+Mostly coded by ourselves
+'''
+
+
 import os
 
 import numpy as np

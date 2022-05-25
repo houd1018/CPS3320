@@ -1,3 +1,9 @@
+'''
+letterbox_image function is from the Internet because we need to find a mannual way to Resize our image in predictive method
+Others are coded by ourselves
+'''
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
