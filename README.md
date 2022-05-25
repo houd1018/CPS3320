@@ -68,6 +68,13 @@ Use selenium to scrape images from Google Image
 
 ![Learning-rate](https://github.com/houd1018/CPS3320/blob/master/resource/Learning-rate.jpg)
 
+### [Download Dataset](https://drive.google.com/file/d/1LhxNkVzmsMFYYnZEHduBMbb4rIbjZG2W/view?usp=sharing)
+
+### Download Weight File
+
+- [VGG-16 pretrained model](https://drive.google.com/file/d/15zyOhp_RzO4r5494G_0isPmjXfJNPhOR/view?usp=sharing)
+- [animal-5 classification model](https://drive.google.com/file/d/1rwu9e264xYzptNfgCuZkzD0C9lVyZuu9/view?usp=sharing)
+
 ### Reference website
 
 - Reconstruct Dataloader
